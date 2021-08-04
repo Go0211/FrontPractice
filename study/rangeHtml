@@ -1,0 +1,13 @@
+<html>
+
+<head>
+    - 기타 정보
+        1. <meta charset="UTF-8"> : 출력 방식
+    - 문서의 제목 
+        1. <title> text </title>
+    - 스타일 직접 입력
+    - 스타일 외부에서 가져와서 연결
+</head>
+
+<body>
+
