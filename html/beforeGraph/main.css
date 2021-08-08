@@ -1,0 +1,25 @@
+body header {
+    width: 70%;
+    background-color: wheat;
+}
+body header nav{
+    display: inline;
+}
+body header nav ul {
+    display: flex;
+}
+body header nav ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+body main {
+    width: 70%;
+    background-color: thistle;
+}
+body main section {
+    background-color: violet;
+}
+body main section article{
+    margin: 20px;
+}
