@@ -1,0 +1,34 @@
+table {
+    border-collapse: collapse;
+}
+
+table caption {
+    font-size: x-large;
+}
+
+th {
+    border: 1px solid red;
+    background-color: yellow;
+}
+
+td {
+    border: 1px solid red;
+}
+
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}

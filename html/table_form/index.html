@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>테이블 및 양식 연습</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <table>
+        <caption>테이블 연습</caption>
+
+        <tr>
+            <th abbr="turn" id="turn">순번</th>
+            <th abbr="name" id="name">이름</th>
+            <th abbr="birthday" id="birthday" colspan="3">생년월일</th>
+        </tr>
+        <tr>
+            <td headers="turn">1</td>
+            <td headers="name">고성태</td>
+            <td headers="birthday">99</td>
+            <td headers="birthday">02</td>
+            <td headers="birthday">11</td>
+        </tr>
+        <tr>
+            <td headers="turn">2</td>
+            <td headers="name">고성택</td>
+            <td headers="birthday">99</td>
+            <td headers="birthday">02</td>
+            <td headers="birthday">11</td>
+        </tr>
+    </table>
+
+    <form action="" method="get" class="form-example">
+        <div class="form-example">
+          <label for="email"> email: </label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-example">
+            <label for="password"> password: </label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <div class="form-example">
+          <input type="submit" value="Subscribe!">
+        </div>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Coffee Size</legend>
+            <label>
+                <input type="radio" name="size" value="tall" />
+                Tall
+            </label>
+            <label>
+                <input type="radio" name="size" value="grande" />
+                Grande
+            </label>
+            <label>
+                <input type="radio" name="size" value="venti" />
+                Venti
+            </label>
+        </fieldset>
+    </form>
+</body>
+</html>
