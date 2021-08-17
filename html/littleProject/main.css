@@ -1,7 +1,9 @@
 body {
-    background-color: antiquewhite;
+    background-image: 
+        url(https://search.pstatic.net/common?type=a&size=225x150&quality=95&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FportraitGroup%2F202012%2F20201202170717689.jpg);
     padding-left: 10%;
     padding-right: 10%;
+    background-size: auto;
 }
 body header nav{
     width: 100%;
@@ -32,7 +34,10 @@ body main {
 }
 #ad {
     width: 26.5%;
-    background-color: aquamarine;
+    height: 550px;
+    background-image: 
+        url(https://search.pstatic.net/common?type=a&size=120x150&quality=95&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2Fportrait%2F202012%2F20201202170306590.jpg);
+    background-repeat: repeat;
 }
 
 body footer {
